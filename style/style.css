@@ -1,0 +1,252 @@
+/* Estilos generales */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.titulo{
+  font-size: 22px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+#hobbies, #series, #landing, #musica, #bio, #plan{
+  padding: 0 100px 100px 100px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+} 
+
+/* Fin Estilos generales */
+
+/* Estilo de barra de navegación  */
+
+nav{
+  display: flex;
+  width: 100%;
+  min-height: 8vh;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(90deg,#ff8d4d,#f4494e);
+}
+
+.nav-link {
+  list-style: none;
+  display: inline;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+/* Fin de estilo barra de navegación */
+
+/* Estilo Landing */
+#landing {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+.landing-text {
+  width: 50%;
+  text-align: center;
+  margin: auto 0;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.landing-img {
+  width: 50%;
+  text-align: center;
+  margin: auto 0;
+}
+
+.profile {
+  width: 400px;
+  height: 400px;
+  border-radius: 15%;
+}
+
+/* Fin Estilo Landing */
+
+/* Estilo Hobbies */
+
+#hobbies .list {
+  text-align: center;
+  width: 40%;
+  margin: auto 0;
+  font-size: 20px;
+}
+
+#hobbies .list ul li{
+  list-style: none;
+}
+
+#hobbies .images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-evenly;
+  width: 60%;
+  position: relative;
+}
+
+#hobbies .images .img{
+  justify-content: space-evenly;
+  height: 300px; 
+  display:flex; 
+}
+
+/* Fin Estilo Hobbies */
+
+/* Estilo Series */
+.serie {
+  font-weight: 100;
+  text-align: justify;
+  padding: 10px;
+}
+
+.serie h3{
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Fin Estilo Series */
+
+/* Estilo Musica */
+
+.banda {
+  font-weight: 100;
+  text-align: justify;
+  padding: 10px;
+}
+
+#musica h3 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-style: italic;
+}
+/* Fin Estilo Musica */
+
+/* Estilo Biografía */
+#bio .container{
+  gap: 100px;
+}
+
+#bio .text {
+  width: 50%;
+}
+
+#bio .text p{
+  margin: 15px 0;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+#bio .image {
+  width: 50%;
+  justify-content: center;
+  height: 600px; 
+  display:flex;
+}
+
+/* Fin Estilo Biografía */
+
+/* Estilo Plan Dominación */
+
+#plan ol li {
+  font-size: 20px;
+  font-weight: 100;
+}
+/* Fin Estilo Plan Dominación */
+
+/* Estilo Footer */
+
+footer{
+  padding: 0 100px 50px 100px;
+  background-image: linear-gradient(90deg,#ff8d4d,#f4494e);
+}
+
+footer .container{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+} 
+
+footer .left{
+  width: 50%;
+}
+
+footer .rigth{
+  width: 50%;
+  text-align: left;
+}
+
+footer button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5%;
+}
+
+#instagram {
+  background-color: #b21cdb;
+}
+
+#instagram:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+#instagram:active {
+  background-color: rgb(222, 167, 26);
+  border-color: rgb(222, 167, 26);
+  color: #eee;
+}
+
+#facebook {
+  background-color: #0404f7;
+}
+
+#facebook:hover {
+  background-color: #f70441;
+}
+
+#facebook a {
+  color: white;
+}
+
+#facebook:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgb(253, 248, 0);
+}
+
+#twitter {
+  background-color: #07bcf8;
+}
+
+#twitter:hover {
+  background-color: #2bf807;
+}
+
+/* Fin Estilo Footer */
+
